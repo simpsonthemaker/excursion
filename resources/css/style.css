@@ -1,7 +1,3 @@
-* {
-  font-family: helvetica;
-}
-
 body {
 background-color: black;
 text-align: center;
@@ -33,9 +29,10 @@ p.main {
   font-family: veranda;
   font-size: 21px;
   color: gray;
+}
 
-
-p.Footer {
-  color: gray;
-  text-align: right;
+p.copyright {
+    font-family: veranda;
+    color: gray;
+    text-align: right;
 }
