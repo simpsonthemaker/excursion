@@ -3,7 +3,8 @@
 }
 
 body {
-background-color: black
+background-color: black;
+text-align: center;
 }
 
 h1 {
@@ -14,15 +15,27 @@ h1 {
   text-align: center;
 }
 
-
-p {
+p.intro,
+p.secondary {
   color: aquamarine;
   font-size: 16px;
   text-align: center;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+h2 {
+  font-family: veranda;
+  font-weight: 300
+  font-size: 42px;
+  color: white;
+}
+
+p.main {
+  font-family: veranda;
+  font-size: 21px;
+  color: gray;
+
+
+p.Footer {
+  color: gray;
+  text-align: right;
 }
